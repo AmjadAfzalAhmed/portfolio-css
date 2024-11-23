@@ -1,0 +1,27 @@
+[
+    {
+        "title": "Typescript",
+        "imageSrc": "/ts.png"               
+    },
+    {
+        "title": "HTML  CSS",
+        "imageSrc": "/html.png"               
+    },
+    {
+        "title": "Tailwind CSS",
+        "imageSrc": "/tailwind.png"               
+    },
+    {
+        "title": "React JS",
+        "imageSrc": "/react.png"               
+    },
+    {
+        "title": "Next Js",
+        "imageSrc": "/nextjs.jpeg"               
+    },
+    {
+        "title": "Graphic Design",
+        "imageSrc": "/pshop.png"               
+    }
+    
+]

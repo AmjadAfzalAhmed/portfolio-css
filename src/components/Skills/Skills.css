@@ -1,0 +1,44 @@
+.skills {
+    width: 900px;
+}
+
+.skills h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 1;
+    text-align: center;
+}
+
+.skills .items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.skills .items .item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width: calc(33.33%);
+    height: 250px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid yellow; 
+    box-shadow: var(--box-shadow);      
+  }
+  
+  .skills .items .item h3 {
+    margin-top: 10px;
+    color: white;
+    text-align: center;
+  }
+
+.item h3 {
+    font-size: 2rem;
+    font-weight: 500;
+}

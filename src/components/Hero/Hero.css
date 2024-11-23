@@ -1,0 +1,63 @@
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;    
+}
+
+.hero_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    padding-right: 50px;     
+}
+
+.hero_img img {
+    border-radius: 100%;
+    border: 5px solid dodgerblue;
+    animation: animate ease-in;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+.hero .left {
+    background-color: var(--bg-color);
+    width: 600px;
+    padding: 30px;
+    text-align: center;
+    border: 1px solid yellow;
+    border-radius: 10px;
+    box-shadow: var(--box-shadow);
+}
+
+.btn {
+    margin-top: 10px;
+    color: white;
+}
+
+@keyframes animate {
+    0% {
+        border-color: blue;
+        transform: translate(0,0px);
+        box-shadow: 10px 10px 100px 50px blue;
+    }
+    25% {
+        border-color: rgb(239,244,11);
+        box-shadow: 10px 10px 100px 50px rgb(239,244,11);
+    }
+    50% {
+        border-color: rgb(12,12,100);
+        transform: translate(0,10px);
+        box-shadow: 10px 10px 100px 50px rgb(12,12,100);
+    }
+    75% {
+        border-color: rgb(130,217,160);
+        box-shadow: 10px 10px 100px 50px rgb(130,217,160);
+    }
+    100% {
+        border-color: rgba(50,55,205);
+        transform: translate(0,-0px);
+        box-shadow: 10px 10px 100px 50px rgb(50,55,205);
+    }
+}

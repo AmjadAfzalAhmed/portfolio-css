@@ -1,0 +1,33 @@
+[
+    {
+        "title": "Uni Management",
+        "imageSrc": "/university-management.png",
+        "description":"Created using Inquirer Package on CLI",
+        "link":"https://github.com/AmjadAfzalAhmed/university-management"
+    },
+    {
+        "title": "Resume Builder",
+        "imageSrc": "/Resume.jpg",
+        "description":"Created using HTML CSS & Typescript",
+        "link":"https://vercel.com/amjad-afzal-ahmeds-projects/milestone-2"               
+    },
+    {
+        "title": "Portfolio",
+        "imageSrc": "/portfolio.jpg",
+        "description":"Created using Next.Js Tailwind CSS",
+        "link":"https://vercel.com/amjad-afzal-ahmeds-projects/portfolio-next"               
+    },
+    {
+        "title": "Login Sign Up",
+        "imageSrc": "/login-page.jpg",
+        "description":"Created using HTML and CSS",
+        "link":"https://vercel.com/amjad-afzal-ahmeds-projects/html-css-login-signup"               
+    },
+    {
+        "title": "GovernorSite-Clone",
+        "imageSrc": "/governor.jpg",
+        "description":"Created using Next.Js Tailwind CSS",
+        "link":"https://vercel.com/amjad-afzal-ahmeds-projects/governorsite-clone"               
+    }
+    
+]

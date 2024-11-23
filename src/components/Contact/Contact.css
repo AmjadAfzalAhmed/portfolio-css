@@ -1,0 +1,35 @@
+.contact h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 1;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.socials .icons {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;  
+    border: 1px solid yellow;
+}
+
+.socials .icons:hover {
+    background-color: var(--bg-color);
+    box-shadow: var(--box-shadow);
+}
+.icon {
+    width: 40px;
+    height: 40px;
+}
+

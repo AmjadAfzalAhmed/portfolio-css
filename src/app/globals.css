@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background-color: rgb(11,26,51);
+  color: white;
+}
+
+:root {
+  --box-shadow: 5px 5px 10px 10px rgba(101,175,10,0.5);
+  --bg-color: rgb(40,47,97);
+}
